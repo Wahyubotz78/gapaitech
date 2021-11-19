@@ -19,7 +19,7 @@
   --z-fixed: 100;
 }
 
-@media screen and (min-width: 932px) {
+@media screen and (min-width: 768px) {
   :root {
     --nav-name-font-size: 1rem;
     --normal-font-size: 1rem;
@@ -93,7 +93,7 @@ a {
 }
 
 /*===== NAV =====*/
-@media screen and (max-width: 932px) {
+@media screen and (max-width: 768px) {
   .nav {
     position: fixed;
     top: 0;
@@ -200,7 +200,7 @@ a {
   }
 }
 
-@media screen and (min-width: 932px) {
+@media screen and (min-width: 768px) {
   body {
     margin: 0;
   }
@@ -513,7 +513,7 @@ footer {
   }
 }
 
-@media (max-width:932px) {
+@media (max-width:767px) {
   .container-jumbotron img {
     margin-top: 0;
   }
