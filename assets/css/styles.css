@@ -300,95 +300,81 @@ main {
   margin-top: 100px;
 }
 
-.container-postinganTerakhir {
-  max-width: 1200px;
-  margin: auto;
-  margin-bottom: 50px;
-  /* background-color: blue; */
-}
-
-.postingan-terakhir {
-  border-bottom: 2px solid #383838;
-  margin: 10px;
-}
-
-.postingan-terakhir p {
-  background-color: #383838;
-  width: max-content;
-  padding: 10px;
-  border-top-left-radius: 20px;
-  color: #ffffff;
-  font-size: 0.8em;
-  letter-spacing: 0.5px;
-}
-
-.container-isiPostinaganTerakhir {
+.containerCard {
+  max-width: 1255px;
+  /* border: 1px solid gray; */
+  margin: 30px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.isiPostinaganTerakhir {
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
+.postinganTerbaru p {
+  color: #EAEAEA;
+  background-color: #2e2e2e;
+  width: max-content;
+  padding: 10px;
+  border-top-left-radius: 15px;
+  font-size: 0.9em;
 }
 
-.isiPostinaganTerakhir:hover {
-  margin-top: 10px;
-  transition: all 0.5s;
+.postinganTerbaru {
+  width: 100%;
+  border-bottom: 2px solid #2e2e2e;
+  margin: 20px 13px;
 }
 
-.gambar-postinganTerakhir {
-  max-width: 360px;
+.boxDalamCard {
+  width: 300px;
+  /* height: 250px; */
+  border: 1px solid rgb(211, 211, 211);
+  margin: 10px 5px;
+  background-color: #EAEAEA;
 }
 
-.gambar-postinganTerakhir img {
+.gambarCard img {
   width: 100%;
 }
 
-.keterangan {
-  max-width: 360px;
-}
-
-.keterangan ul {
+.user {
   display: flex;
-  list-style: none;
+  margin: 10px;
 }
 
-.keterangan-penulis {
-  width: 8px;
-  height: 8px;
-  filter: invert(53%) sepia(0%) saturate(0%) hue-rotate(295deg) brightness(94%) contrast(83%);
+.profil img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
 }
 
-.keterangan li {
-  font-size: 0.6em;
-  color: #808080;
-  margin: 10px 5px 10px 0;
+.name {
+  margin: 0 0 0 10px;
 }
 
-.keterangan li:nth-child(3) {
-  margin-left: 10px;
+.name p {
+  color: #525252;
 }
 
-.keterangan h2 {
-  margin-bottom: 10px;
+.name p:first-child {
+  font-size: 0.9em;
 }
 
-.keterangan h2 a {
-  color: black;
-  font-weight: bold;
+.name p:last-child {
+  font-size: 0.7em;
+  color: #919191;
 }
 
-.keterangan h2 a:hover {
+.judul {
+  margin: 10px;
+}
+
+.judul h3 a {
+  text-decoration: none;
+  color: #000;
+}
+
+.judul h3 a:hover {
   color: #5B65F5;
-}
-
-.keterangan p {
-  text-align: justify;
-  font-size: 0.8em;
-  line-height: 30px;
 }
 
 .service {
@@ -516,11 +502,5 @@ footer {
 @media (max-width:932px) {
   .container-jumbotron img {
     margin-top: 0;
-  }
-}
-
-@media (max-width:768px) {
-  .isiPostinaganTerakhir:hover {
-    margin-top: 20px;
   }
 }

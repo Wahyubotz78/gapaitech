@@ -1,64 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- ===== Fonts ==== -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <link rel="icon" type="image/Svg" href="assets/img/logo.svg">
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- ===== Fonts ==== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/Svg" href="assets/img/logo.svg">
 
 
-        <title>Belajar Css | GapaiTech</title>
-    </head>
-    <body>
-        <header class="header">
-            <a href="../index.html" class="header__logo">GapaiTech</a>
+    <title>Belajar JavaScript | GapaiTech</title>
+</head>
 
-            <i class='bx bx-menu header__toggle' id="header-toggle"></i>
+<body>
+    <header class="header">
+        <a href="../index.html" class="header__logo">GapaiTech</a>
 
-            <nav class="nav" id="nav-menu">
-                <div class="nav__content bd-grid">
-                    <a href="../index.html" class="nav__perfil">
-                        
-                        <div>
-                            <span class="nav__name">GapaiTech</span>
-                        </div>
-                    </a>
-    
-                    <div class="nav__menu">
-                        <ul class="nav__list">
+        <i class='bx bx-menu header__toggle' id="header-toggle"></i>
 
-                            <li class="nav__item"><a href="../index.html" class="nav__link">Home</a></li>
-    
-                            <li class="nav__item dropdown">
-                                <a class="nav__link dropdown__link">Web Development <i class='bx bx-chevron-down dropdown__icon'></i></a>
-                                    
-    
-                                <ul class="dropdown__menu">
-                                    <li class="dropdown__item"><a href="../tutorial-html/index.html" class="nav__link">Html</a></li>
-                                    <li class="dropdown__item"><a href="../tutorial-css/index.html" class="nav__link">Css</a></li>
-                                    <li class="dropdown__item"><a href="../tutorial-javascript/index.html" class="nav__link">JavaScript</a></li>
-                                </ul>
-                            </li>
-    
-                            <li class="nav__item"><a href="../tutorial/index.html" class="nav__link">Tutorial</a></li>
+        <nav class="nav" id="nav-menu">
+            <div class="nav__content bd-grid">
+                <a href="../index.html" class="nav__perfil">
 
-                            <li class="nav__item"><a href="../artikel/index.html" class="nav__link">Artikel</a></li>
+                    <div>
+                        <span class="nav__name">GapaiTech</span>
+                    </div>
+                </a>
 
-                            <li class="nav__item"><a href="../soal-soal/index.html" class="nav__link">Soal-Soal</a></li>
+                <div class="nav__menu">
+                    <ul class="nav__list">
 
-                            <li class="nav__item"><a href="../about/index.html" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="../index.html" class="nav__link">Home</a></li>
 
-                            <!-- <li class="nav__item dropdown">
+                        <li class="nav__item dropdown">
+                            <a class="nav__link dropdown__link">Web Development<i
+                                    class='bx bx-chevron-down dropdown__icon'></i></a>
+
+
+                            <ul class="dropdown__menu">
+                                <li class="dropdown__item"><a href="../tutorial-html/index.html"
+                                        class="nav__link">Html</a></li>
+                                <li class="dropdown__item"><a href="../tutorial-css/index.html"
+                                        class="nav__link">Css</a></li>
+                                <li class="dropdown__item"><a href="../tutorial-javascript/index.html"
+                                        class="nav__link">JavaScript</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav__item"><a href="../tutorial/index.html" class="nav__link">Tutorial</a></li>
+
+                        <li class="nav__item"><a href="../artikel/index.html" class="nav__link">Artikel</a></li>
+
+                        <li class="nav__item"><a href="../soal-soal/index.html" class="nav__link">Soal-Soal</a></li>
+
+                        <li class="nav__item"><a href="../about/index.html" class="nav__link">About</a></li>
+
+                        <!-- <li class="nav__item dropdown">
                                 <a href="#" class="nav__link dropdown__link">Works <i class='bx bx-chevron-down dropdown__icon'></i></a>
                                     
     
@@ -69,188 +75,214 @@
                                 </ul>
                             </li> -->
 
-                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-jumbotron">
+        <img src="assets/img/header2.png">
+    </div>
+
+    <main>
+        <div class="boxLuarCard">
+            <div class="containerCard">
+
+                <div class="postinganTerbaru">
+                    <p>Tutorial CSS</p>
+                </div>
+                <!-- postingan Tutorial CSS 01 -->
+                <div class="boxDalamCard">
+                    <div class="gambarCard">
+                        <a href="tutorial-html/struktur-dasar-pada-html/index.html"><img
+                                src="assets/img/struktur-dasar-html.png"></a>
+                    </div>
+
+                    <div class="judul">
+                        <h3>
+                            <a href="tutorial-html/struktur-dasar-pada-html/index.html">Strukrur Dasar Pada HTML</a>
+                        </h3>
+                    </div>
+
+                    <div class="user">
+                        <div class="profil">
+                            <img src="assets/img/riz.jpeg">
+                        </div>
+
+                        <div class="name">
+                            <p>
+                                Muhammad Rizki
+                            </p>
+
+                            <p>
+                                19 November 2021
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </nav>
-        </header>
 
-        <div class="container-jumbotron">
-            <img src="assets/img/header2.png">
+                <!-- postingan Tutorial CSS 02 -->
+                <div class="boxDalamCard">
+                    <div class="gambarCard">
+                        <a href=""><img src="assets/img/intel-alder-lake.png"></a>
+                    </div>
+
+                    <div class="judul">
+                        <h3>
+                            <a href="">Intel Luncurkan Gammin..</a>
+                        </h3>
+                    </div>
+
+                    <div class="user">
+                        <div class="profil">
+                            <img src="assets/img/riz.jpeg">
+                        </div>
+
+                        <div class="name">
+                            <p>
+                                Muhammad Rizki
+                            </p>
+
+                            <p>
+                                19 November 2021
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- postingan Tutorial CSS 03 -->
+                <div class="boxDalamCard">
+                    <div class="gambarCard">
+                        <a href=""><img src="assets/img/jaringan-interprise.png"></a>
+                    </div>
+
+                    <div class="judul">
+                        <h3>
+                            <a href="">Mengoneksikan jaringan..</a>
+                        </h3>
+                    </div>
+
+                    <div class="user">
+                        <div class="profil">
+                            <img src="assets/img/riz.jpeg">
+                        </div>
+
+                        <div class="name">
+                            <p>
+                                Muhammad Rizki
+                            </p>
+
+                            <p>
+                                19 November 2021
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- postingan Tutorial CSS 04 -->
+                <div class="boxDalamCard">
+                    <div class="gambarCard">
+                        <a href=""><img src="assets/img/modif-gambar-svg.png"></a>
+                    </div>
+
+                    <div class="judul">
+                        <h3>
+                            <a href="">Cara Memodifikasi Gam..</a>
+                        </h3>
+                    </div>
+
+                    <div class="user">
+                        <div class="profil">
+                            <img src="assets/img/riz.jpeg">
+                        </div>
+
+                        <div class="name">
+                            <p>
+                                Muhammad Rizki
+                            </p>
+
+                            <p>
+                                19 November 2021
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- postingan Tutorial CSS 05 -->
+                <div class="boxDalamCard">
+                    <div class="gambarCard">
+                        <a href=""><img src="assets/img/apa-itu-html.png"></a>
+                    </div>
+
+                    <div class="judul">
+                        <h3>
+                            <a href="">Apa Itu Html</a>
+                        </h3>
+                    </div>
+
+                    <div class="user">
+                        <div class="profil">
+                            <img src="assets/img/riz.jpeg">
+                        </div>
+
+                        <div class="name">
+                            <p>
+                                Muhammad Rizki
+                            </p>
+
+                            <p>
+                                19 November 2021
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <main>
-            <!-- container postingan Tutorial  Css -->
-            <div class="container-postinganTerakhir">
-                <div class="postingan-terakhir">
-                    <p>Tutorial  Css</p>
-                </div>
+        <!-- ================================================================================================================================================================= -->
 
-                <!-- box isi postingan Tutorial  Css -->
-                <div class="container-isiPostinaganTerakhir">
+        <div class="service">
+            <h2>Melayani Pembuatan Website Perusahaan, Portal Berita, Blog, E-Commerce, dan Lainnya</h2>
+            <p>Hubungi Salah Satu Kontak</p>
+            <ul>
+                <li><a href="https://wa.me/6282246924258" target="_blank"><img src="assets/img/whatsapp.png"></a></li>
+                <li><a href="https://t.me/kyrizky" target="_blank"><img src="assets/img/telegram.png"></a></li>
+            </ul>
+        </div>
 
-                    <!-- isi postingan Tutorial  Css 01 -->
-                    <div class="isiPostinaganTerakhir">
-                        <div class="gambar-postinganTerakhir">
-                           <a href=""><img src="assets/img/conten.png"></a>
-                        </div>
+    </main>
 
-                        <div class="keterangan">
-                            <ul>
-                                <li><img class="keterangan-penulis" src="assets/img/user.svg"></li>
-                                <li>Muhammad Rizki</li>
-                                <li><img class="keterangan-penulis" src="assets/img/calendar.svg"></li>
-                                <li>10 Okt 2021</li>                                
-                            </ul>
+    <footer>
+        <div class="container-footer">
+            <h3 class="me"><a href="https://mhdky.github.io/muhammadrizki/" target="_blank">About Me</a></h3>
 
-                            <h2><a href="#">Lorem ipsum dolor sit amet.</a></h2>
-
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia minus assumenda dicta quia. Obcaecati, architecto. Lorem ipsum dolor sit amet. psum dolor sit
-                            </p>
-                        </div>
-                    </div>
-                    <!-- isi postingan Tutorial  Css 01 -->
-
-                    <!-- isi postingan Tutorial  Css 02 -->
-                    <div class="isiPostinaganTerakhir">
-                        <div class="gambar-postinganTerakhir">
-                            <a href=""><img src="assets/img/conten.png"></a>
-                        </div>
-
-                        <div class="keterangan">
-                            <ul>
-                                <li><img class="keterangan-penulis" src="assets/img/user.svg"></li>
-                                <li>Muhammad Rizki</li>
-                                <li><img class="keterangan-penulis" src="assets/img/calendar.svg"></li>
-                                <li>10 Okt 2021</li>                                
-                            </ul>
-
-                            <h2><a href="">Lorem ipsum dolor sit amet.</a></h2>
-                            
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia minus assumenda dicta quia. Obcaecati, architecto. Lorem ipsum dolor sit amet. psum dolor sit
-                            </p>
-                        </div>                        
-                    </div>
-                    <!-- isi postingan Tutorial  Css 02 -->            
-                    
-
-                    <!-- isi postingan Tutorial  Css 03 -->
-                    <div class="isiPostinaganTerakhir">
-                        <div class="gambar-postinganTerakhir">
-                            <a href="#"><img src="assets/img/conten.png"></a>
-                        </div>
-
-                        <div class="keterangan">
-                            <ul>
-                                <li><img class="keterangan-penulis" src="assets/img/user.svg"></li>
-                                <li>Muhammad Rizki</li>
-                                <li><img class="keterangan-penulis" src="assets/img/calendar.svg"></li>
-                                <li>10 Okt 2021</li>                                
-                            </ul>
-
-                            <h2><a href="#">Lorem ipsum dolor sit amet.</a></h2>
-
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia minus assumenda dicta quia. Obcaecati, architecto. Lorem ipsum dolor sit amet. psum dolor sit
-                            </p>
-                        </div>                        
-                    </div>
-                    <!-- isi postingan Tutorial  Css 03 -->                          
+            <ul class="footer-list">
+                <li><a href="https://web.facebook.com/profile.php?id=100025237001674" target="_blank"><img
+                            class="footer-color" width="20" height="20" src="assets/img/facebook.svg"></a></li>
+                <li><a href="https://t.me/kyrizky" target="_blank"><img class="footer-color" width="20" height="20"
+                            src="assets/img/telegram.svg"></a>
+                </li>
+                <li><a href="https://www.instagram.com/mhdky_10/" target="_blank"><img class="footer-color" width="20"
+                            height="20" src="assets/img/instagram.svg"></a></li>
+                <li><a href="https://github.com/mhdky" target="_blank"><img class="footer-color" width="20" height="20"
+                            src="assets/img/github.svg"></a></li>
+            </ul>
 
 
-                    <!-- isi postingan Tutorial  Css 04 -->
-                    <div class="isiPostinaganTerakhir">
-                        <div class="gambar-postinganTerakhir">
-                            <a href="#"><img src="assets/img/conten.png"></a>
-                        </div>
+            <p class="copyright">Copyright © 2021 | GapaiTech All Right Reserved</p>
+        </div>
+    </footer>
 
-                        <div class="keterangan">
-                            <ul>
-                                <li><img class="keterangan-penulis" src="assets/img/user.svg"></li>
-                                <li>Muhammad Rizki</li>
-                                <li><img class="keterangan-penulis" src="assets/img/calendar.svg"></li>
-                                <li>10 Okt 2021</li>                                
-                            </ul>
+    <a href="#" class="to-top">
+        <img class="top-color" width="30" height="30" src="assets/img/up.svg">
+    </a>
 
-                            <h2><a href="#">Lorem ipsum dolor sit amet.</a></h2>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
 
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia minus assumenda dicta quia. Obcaecati, architecto. Lorem ipsum dolor sit amet. psum dolor sit
-                            </p>
-                        </div>                        
-                    </div>
-                    <!-- isi postingan Tutorial  Css 04 -->           
-                    
-                    <!-- isi postingan Tutorial  Css 05 -->
-                    <div class="isiPostinaganTerakhir">
-                        <div class="gambar-postinganTerakhir">
-                            <a href="#"><img src="assets/img/conten.png"></a>
-                        </div>
-
-                        <div class="keterangan">
-                            <ul>
-                                <li><img class="keterangan-penulis" src="assets/img/user.svg"></li>
-                                <li>Muhammad Rizki</li>
-                                <li><img class="keterangan-penulis" src="assets/img/calendar.svg"></li>
-                                <li>10 Okt 2021</li>                                
-                            </ul>
-
-                            <h2><a href="#">Lorem ipsum dolor sit amet.</a></h2>
-
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia minus assumenda dicta quia. Obcaecati, architecto. Lorem ipsum dolor sit amet. psum dolor sit
-                            </p>
-                        </div>                        
-                    </div>
-                    <!-- isi postingan Tutorial  Css 05 -->
-
-                </div>
-                <!-- akhir box isi postingan Tutorial  Css -->
-
-            </div>
-            <!-- akhir container postingan Tutorial  Css -->
-
-<!-- ================================================================================================================================================================= -->
-        
-            <div class="service">
-                <h2>Melayani Pembuatan Website Perusahaan, Portal Berita, Blog, E-Commerce, dan Lainnya</h2>
-                <p>Hubungi Salah Satu Kontak</p>
-                <ul>
-                    <li><a href="https://wa.me/6282246924258" target="_blank"><img src="assets/img/whatsapp.png"></a></li>
-                    <li><a href="https://t.me/kyrizky" target="_blank"><img src="assets/img/telegram.png"></a></li>
-                </ul>
-            </div>
-
-        </main>       
-
-        <footer>
-            <div class="container-footer">
-                <h3 class="me"><a href="https://mhdky.github.io/muhammadrizki/" target="_blank">About Me</a></h3>
-    
-                <ul class="footer-list">
-                    <li><a href="https://web.facebook.com/profile.php?id=100025237001674" target="_blank"><img class="footer-color"
-                                width="20" height="20" src="assets/img/facebook.svg"></a></li>
-                    <li><a href="https://t.me/kyrizky" target="_blank"><img class="footer-color" width="20" height="20"
-                                src="assets/img/telegram.svg"></a>
-                    </li>
-                    <li><a href="https://www.instagram.com/mhdky_10/" target="_blank"><img class="footer-color" width="20" height="20"
-                                src="assets/img/instagram.svg"></a></li>
-                    <li><a href="https://github.com/mhdky" target="_blank"><img class="footer-color" width="20" height="20"
-                                src="assets/img/github.svg"></a></li>
-                </ul>
-    
-    
-                <p class="copyright">Copyright © 2021 | GapaiTech All Right Reserved</p>
-            </div>
-        </footer>
-
-        <a href="#" class="to-top">
-            <img class="top-color" width="30" height="30" src="assets/img/up.svg">
-        </a>
-
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
 </html>
