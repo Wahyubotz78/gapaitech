@@ -511,8 +511,25 @@ main {
   font-weight: bold;
 }
 
+.green {
+  color: rgb(12, 197, 12);
+}
+
 .isi img {
   width: 100%;
+}
+
+.gambarKecil {
+  max-width: 500px;
+}
+
+.gambarKecil img {
+  width: 100%;
+}
+
+.demo a{
+  color: red;
+  font-weight: bold;
 }
 
 .bullets ul{
