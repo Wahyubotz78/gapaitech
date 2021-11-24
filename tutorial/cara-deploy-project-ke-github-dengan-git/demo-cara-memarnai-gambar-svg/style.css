@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 300px auto;
+}
+
+.container ul {
+    display: flex;
+    list-style: none;
+}
+
+.container li {
+    margin: 0 20px;
+}
+
+.container li img {
+    width: 30px;
+    height: 30px;
+}
+
+.facebook {
+    filter: invert(20%) sepia(100%) saturate(4345%) hue-rotate(241deg) brightness(101%) contrast(95%);
+}
+
+.facebook:hover, .github:hover, .instagram:hover, .telegram:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.github {
+    filter: invert(13%) sepia(7%) saturate(0%) hue-rotate(127deg) brightness(103%) contrast(96%);
+}
+
+.instagram {
+    filter: invert(46%) sepia(73%) saturate(1561%) hue-rotate(318deg) brightness(114%) contrast(101%);
+}
+
+.telegram {
+    filter: invert(44%) sepia(14%) saturate(5692%) hue-rotate(212deg) brightness(96%) contrast(88%);
+}

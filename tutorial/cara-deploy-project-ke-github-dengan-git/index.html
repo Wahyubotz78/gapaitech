@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- ===== Fonts ==== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/Svg" href="assets/img/logo.svg">
+
+
+    <title>Cara Apload atau Deploy Project Ke Github Dengan Git</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="../.." class="header__logo">GapaiTech</a>
+
+        <i class='bx bx-menu header__toggle' id="header-toggle"></i>
+
+        <nav class="nav" id="nav-menu">
+            <div class="nav__content bd-grid">
+                <a href="../.." class="nav__perfil">
+
+                    <div>
+                        <span class="nav__name">GapaiTech</span>
+                    </div>
+                </a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+
+                        <!-- navigasi -->
+                        <li class="nav__item"><a href="../.." class="nav__link">Home</a></li>
+
+                        <li class="nav__item dropdown">
+                            <a class="nav__link dropdown__link">Web Development<i
+                                    class='bx bx-chevron-down dropdown__icon'></i></a>
+
+
+                            <ul class="dropdown__menu">
+                                <li class="dropdown__item"><a href="../../tutorial-html"
+                                        class="nav__link">Html</a></li>
+                                <li class="dropdown__item"><a href="../../tutorial-css"
+                                        class="nav__link">Css</a></li>
+                                <li class="dropdown__item"><a href="../../tutorial-javascript"
+                                        class="nav__link">JavaScript</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav__item"><a href="../../tutorial" class="nav__link">Tutorial</a></li>
+
+                        <li class="nav__item"><a href="../../artikel" class="nav__link">Artikel</a></li>
+
+                        <li class="nav__item"><a href="../../soal-soal" class="nav__link">Soal-Soal</a></li>
+
+                        <li class="nav__item"><a href="../../about" class="nav__link">About</a></li>
+
+                        <!-- <li class="nav__item dropdown">
+                                <a href="#" class="nav__link dropdown__link">Works <i class='bx bx-chevron-down dropdown__icon'></i></a>
+                                    
+    
+                                <ul class="dropdown__menu">
+                                    <li class="dropdown__item"><a href="#" class="nav__link">Recent jobs</a></li>
+                                    <li class="dropdown__item"><a href="#" class="nav__link">Better jobs</a></li>
+                                    <li class="dropdown__item"><a href="#" class="nav__link">Work Awards</a></li>
+                                </ul>
+                            </li> -->
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="box-container-article">
+            <div class="container-article">
+                <div class="share">
+                    <p>Share</p>
+                    <ul>
+                        <li><a href="https://web.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmhdky.github.io/gapaitech/tutorial/cara-mewarnai-gambar-svg/"
+                                target="_blank"><img class="sosmedShare" width="20" height="20"
+                                    src="assets/img/facebook.svg"></a></li>
+                        <li><a href="https://twitter.com/intent/tweet?url=mhdky.github.io/gapaitech/tutorial/cara-mewarnai-gambar-svg/"
+                                target="_blank"><img class="sosmedShare" width="20" height="20"
+                                    src="assets/img/twitter-brands.svg"></a></li>
+                        <li><a href="whatsapp://send?text=mhdky.github.io/gapaitech/tutorial/cara-mewarnai-gambar-svg/
+                                " data-action="share/whatsapp/share" target="_blank"><img class="sosmedShare"
+                                    width="20" height="20" src="assets/img/whatsapp-brands.svg"></a></li>
+                        <li><a href="https://pinterest.com/pin/create/button/?url=mhdky.github.io/gapaitech/tutorial/cara-mewarnai-gambar-svg/"
+                                target="_blank"><img width="20" height="20" class="sosmedShare"
+                                    src="assets/img/pinterest.svg"></a></li>
+                        <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=mhdky.github.io/gapaitech/tutorial/cara-mewarnai-gambar-svg/"
+                                target="_blank"><img class="sosmedShare" width="20" height="20"
+                                    src="assets/img/linkedin-in-brands.svg"></a></li>
+                    </ul>
+                </div>
+
+                <div class="article">
+                    <div class="content">
+                        <div class="backgo">
+                            <!-- back and go -->
+                            <p><a href="../..">Home</a> <span>>></span> <a href=".."> Tutorial</a> <span>>></span>
+                                Cara Deploy Project Ke Github Dengan Git</p>
+                            <!--akhir back and go -->
+                        </div>
+
+                        <div class="authour">                
+                            <div class="profilAuthour">
+                                <img src="assets/img/riz.jpeg">
+                            </div>
+
+                            <div class="name-date">
+                                <p>Muhammad Rizki</p>
+
+                                <ul>
+                                    <li><img width="15" height="15" src="assets/img/calendar.svg"></li>
+                                    <!-- tanggal -->
+                                    <li>25 Nov 2021</li>
+                                    <!-- folder -->
+                                    <li><img width="15" height="15" src="assets/img/folder.svg"></li>
+                                    <li><a href="..">Tutorial</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="title-content">
+                            <!-- judul konten -->
+                            <h1>Cara Deploy Project Ke Github Dengan Git</h1>
+                        </div>
+
+                        <div class="gambar-content">
+                            <!-- gambar konten -->
+                            <img src="assets/img/deploy-project-ke-github-dengan-git.png">
+                        </div>
+
+                        <!-- isi konten -->
+                        <div class="isi">
+
+                            <br><br><div class="container-myVideo">       
+                                <p><strong>Lihat Tutorial Dalam Bentuk Video</strong></p>                         
+                                <iframe src="https://www.youtube.com/embed/iTu_ynCA2zc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <p>
+                                <br><br><br>Halo sobat Gapai, kali ini saya akan membagikan tutorial Mendeploy project ke github dengan menggunakan git. 
+                            </p>                    
+                            
+                            <p>
+                                <br>Mengapa menggunakan git??.  Karena Mendeploy Project ke github jauh lebih cepat dan efisien dengan menggunakan git. 
+                            </p>
+
+                            <p>
+                                <br>Di situs <a href="https://git-scm.com/about/small-and-fast" target="_blank">git-scm</a> mengatakan “Dengan Git, hampir semua operasi dilakukan secara lokal, dan memberikan keuntungan kecepatan besar pada sistem terpusat yang terus-menerus harus berkomunikasi dengan server.”
+                            </p>
+
+                            <p>
+                                <br>Agar lebih jelas Langsung saja kita ke tutorialnya. 
+                            </p>
+
+                            <p>
+                                <br>Di sini saya beramsumsi bahwa kalian sudah menginstal git, jika belum silahkan instal terlebih dahulu di <a href="https://git-scm.com/." target="_blank">git-scm.com</a>
+                            </p>
+
+                            <p>
+                                <br>Sebelumnya, di sini saya mempunyaI sebuah project yang lumayan banyak filenya, seperti gambar di bwah ini.
+                            </p>
+
+                            <div class="gambarKecil">
+                                <img src="assets/img/project.PNG" alt="">
+                            </div>
+
+                            <p>
+                                Nah, bayangkan saja jika kita mengapload file ini satu persatu ke github itu sangat merepotkan dan tidak efisien, maka dari itu kita akan mengaploadnya menggunakan git. 
+                            </p>
+
+                            <h2>
+                                <br>Langkah-Langkah Mendeploy Project Ke Github Dengan Git
+                            </h2>
+
+                            <p>
+                                <strong>1. </strong> Masuk ke akun github kalian.
+                            </p>
+
+                            <p>
+                                <br><strong>2. </strong> Buat repository baru.
+                            </p>
+
+                            <p>
+                                <br><strong>3. </strong> Buat nama repository yang kalian inginkan. 
+                            </p>
+
+                            <div class="gambarKecil">
+                                <img src="assets/img/new-repo-name.PNG" alt="">
+                            </div>
+
+                            <p>
+                                <br><strong>4. </strong> Scroll ke bawah lalu klik create repostory.
+                            </p>
+
+                            <div class="gambarKecil">
+                                <img src="assets/img/create-repo.PNG" alt="">
+                            </div>
+
+                            <p>
+                                <br><strong>5. </strong> Masuk ke folder project kalian.
+                            </p>
+
+                            <div class="gambarKecil">
+                                <img src="assets/img/project.PNG" alt="">
+                            </div>
+
+                            <p>
+                                <br><strong>6. </strong> klik kanan, lalu pilih git bash here.
+                            </p>
+
+                            <div class="gambarKecil">
+                                <img src="assets/img/git-bah-here.PNG" alt="">
+                            </div>
+
+                            <p>
+                                Maka akan terbuka terminal git tersebut.
+                            </p>
+
+                            <div class="gambarKecil">
+                                <img src="assets/img/terminal.PNG" alt="">
+                            </div>
+
+                            <p>
+                                <br><strong>7. </strong> Masukan perintah di bawah ini pada terminal kalian.
+                            </p>
+
+                            <div class="codingan">
+                                <div class="max">
+                                    <span>git init</span>
+                                </div>
+                            </div>
+
+                            <p>
+                                <br><strong>8. </strong> Selanjutnya masukan perintah di bawah ini pada terminal kalian 
+                            </p>
+
+                            <div class="codingan">
+                                <div class="max">
+                                    <span>git status </span>
+                                </div>
+                            </div>
+
+                            <p>
+                                Maka akan tampak pada terminal kalian seperti gambar di bawah ini.
+                            </p>
+
+                            <div class="gambarKecil">
+                                <img src="assets/img/git status.PNG" alt="">
+                            </div>
+
+                            <p>
+                                <br><strong>9.</strong> Selanjutnya masukan perintah di bawah ini pada terminal kalian. 
+                            </p>
+
+                            <div class="codingan">
+                                <div class="max">
+                                    <span>git add .</span>
+                                </div>
+                            </div>
+
+                            <p>
+                                Jangan lupa beri titik di sebelah add, Tunggu hinga prosesnya selesai.
+                            </p>
+
+                            <p>
+                                <br><strong>10.</strong> Lalu masukan kembali perintah.
+                            </p>
+
+                            <div class="codingan">
+                                <div class="max">git status</div>
+                            </div>
+
+                            <p>
+                                Jika di terminal kalian tampak seperti gambar di bawah maka kalian berhasil menambahkan file kalian. 
+                            </p>
+
+                            <div class="gambarKecil">
+                                <img src="assets/img/git status2.PNG" alt="">
+                            </div>
+
+                            <p>
+                                <br><strong>11. </strong> Selanjutnya masukan perintah di bawah ini pada terminal kalian.
+                            </p>
+
+                            <div class="codingan">
+                                <div class="max">
+                                    <span>git commit -u origin “apload project dengan git”</span>
+                                </div>
+                            </div>
+
+                            <p>
+                                <strong>Catatan: </strong> di dalam tanda kutip sebenarnya terserah mau kalian tulis apa.
+                            </p>
+
+                            <p>
+                                <br><strong>12. </strong> Selanjutnya masuk ke github repostory kalian tadi lalu tuliskan perintah yang ada di repostory kalian ke terminal. Seperti gambar di bawah ini.
+                            </p>
+
+                            <div class="gambarKecil">
+                                <img src="assets/img/git-remote.PNG" alt="">
+                            </div>
+
+                            <p>
+                                <br><strong>13. </strong> Selanjutnya masukan perintah di bawah ini pada terminal kalian.
+                            </p>
+
+                            <div class="codingan">
+                                <div class="max">
+                                    <span>git push -u origin main</span>
+                                </div>
+                            </div>
+
+                            <p>
+                                Jika di sini kalian diminta username maka berikan username github kalian.
+                            </p>
+
+                            <p>
+                                <br><strong>14. </strong> Tunggu prosesnya hingga selesai.
+                            </p>
+
+                            <p>
+                                <br><strong>15. </strong> Refresh repostory github kalian, jika folder dan file project kalian sudah ada di github berarti kalian telah berhasil mengaploadnya.
+                            </p>
+
+                            <p>
+                                <br>Sekian tutorial kali ini, dan terimakasih telah menyempatkan membaca artikel saya, sampai ketemu di tutorial-tutorial selanjutnya.
+                            </p>
+                        
+                        </div>
+
+                    <div class="shareBotom">
+                        <p>Share</p>
+                        <ul>
+                            <a href="https://web.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmhdky.github.io/gapaitech/tutorial/cara-mewarnai-gambar-svg/"
+                            target="_blank"><li><img class="buttonShareBottom" width="20" height="20" src="assets/img/facebook.svg" alt=""></li></a>
+                            <a href="https://twitter.com/intent/tweet?url=mhdky.github.io/gapaitech/tutorial/cara-mewarnai-gambar-svg/"
+                            target="_blank"><li><img class="buttonShareBottom" width="20" height="20" src="assets/img/twitter-brands.svg" alt=""></li></a>
+                            <a href="whatsapp://send?text=mhdky.github.io/gapaitech/tutorial/cara-mewarnai-gambar-svg/
+                            " data-action="share/whatsapp/share" target="_blank"><li><img class="buttonShareBottom" width="20" height="20" src="assets/img/whatsapp-brands.svg" alt=""></li></a>
+                            <a href="https://pinterest.com/pin/create/button/?url=mhdky.github.io/gapaitech/tutorial/cara-mewarnai-gambar-svg/"
+                            target="_blank"><li><img class="buttonShareBottom" width="20" height="20" src="assets/img/pinterest.svg" alt=""></li></a>
+                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=mhdky.github.io/gapaitech/tutorial/cara-mewarnai-gambar-svg/"
+                            target="_blank"><li><img class="buttonShareBottom" width="20" height="20" src="assets/img/linkedin-in-brands.svg" alt=""></li></a>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-terkait">
+            <div class="boxLuarCard">
+                <div class="containerCard">
+    
+                    <div class="postinganTerbaru">
+                        <p>Terkait</p>
+                    </div>                  
+    
+    
+                    <!-- postingan terkait Html 01 -->
+                    <!-- <div class="boxDalamCard">
+                        <div class="gambarCard">
+                            <a href=""><img src="assets/img/apa-itu-html.png"></a>
+                        </div>
+    
+                        <div class="judul">
+                            <h3>
+                                <a href="">Apa Itu Html</a>
+                            </h3>
+                        </div>
+    
+                        <div class="user">
+                            <div class="profil">
+                                <img src="assets/img/riz.jpeg">
+                            </div>
+    
+                            <div class="name">
+                                <p>
+                                    Muhammad Rizki
+                                </p>
+    
+                                <p>
+                                    19 November 2021
+                                </p>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="null">Belum Ada Postingan</div>
+                </div>
+            </div>
+
+            <div class="service">
+                <h2>Melayani Pembuatan Website Perusahaan, Portal Berita, Blog, E-Commerce, dan Lainnya</h2>
+                <p>Hubungi Salah Satu Kontak</p>
+                <ul>
+                    <li><a href="https://wa.me/6282246924258" target="_blank"><img src="assets/img/whatsapp.png"></a></li>
+                    <li><a href="https://t.me/kyrizky" target="_blank"><img src="assets/img/telegram.png"></a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <footer>
+        <div class="container-footer">
+            <h3 class="me"><a href="https://mhdky.github.io/muhammadrizki/" target="_blank">About Me</a></h3>
+
+            <ul class="footer-list">
+                <li><a href="https://web.facebook.com/profile.php?id=100025237001674" target="_blank"><img
+                            class="footer-color" width="20" height="20" src="assets/img/facebook.svg"></a></li>
+                <li><a href="https://t.me/kyrizky" target="_blank"><img class="footer-color" width="20" height="20"
+                            src="assets/img/telegram.svg"></a>
+                </li>
+                <li><a href="https://www.instagram.com/mhdky_10/" target="_blank"><img class="footer-color" width="20"
+                            height="20" src="assets/img/instagram.svg"></a></li>
+                <li><a href="https://github.com/mhdky" target="_blank"><img class="footer-color" width="20" height="20"
+                            src="assets/img/github.svg"></a></li>
+            </ul>
+
+            <p class="copyright">Copyright © 2021 | GapaiTech All Right Reserved</p>
+        </div>
+    </footer>
+
+    <a href="#" class="to-top">
+        <img class="top-color" width="30" height="30" src="assets/img/up.svg">
+    </a>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
