@@ -286,6 +286,11 @@ a {
 
 /* code ku */
 
+.javascriptcolor {
+  color: #0400ff;
+  padding-top: 4px;
+}
+
 main {
   margin-top: 100px;
 }

@@ -290,6 +290,14 @@ main {
   /* margin-top: 100px; */
 }
 
+.aboutcolor a {
+  color: #0011ff;
+}
+
+.webdev {
+  padding-top: 4px;
+}
+
 .about {
   background-image: url('../img/background.png');
   /* background-repeat: no-repeat; */

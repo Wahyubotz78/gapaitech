@@ -94,6 +94,8 @@ a {
 
 /*===== NAV =====*/
 @media screen and (max-width: 932px) {
+
+
   .nav {
     position: fixed;
     top: 0;
@@ -204,6 +206,7 @@ a {
   body {
     margin: 0;
   }
+
   .header {
     height: calc(var(--header-height) + 1rem);
   }
@@ -285,6 +288,11 @@ a {
 
 
 /* code ku */
+
+.csscolor {
+  color: #0400ff;
+  padding-top: 4px;
+}
 
 main {
   margin-top: 100px;

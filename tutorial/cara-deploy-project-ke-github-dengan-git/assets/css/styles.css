@@ -286,6 +286,14 @@ a {
 
 /* code ku */
 
+.tutorialcolor a{
+  color: #0000ff;
+}
+
+.webdev {
+  padding-top: 4px;
+}
+
 main {
   margin-top: 100px;
 }
