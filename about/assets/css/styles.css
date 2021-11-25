@@ -287,94 +287,76 @@ a {
 /* code ku */
 
 main {
+  /* margin-top: 100px; */
+}
+
+.about {
+  background-image: url('/about/assets/img/background.png');
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+.container-gapaitech {
+  padding: 200px 0;
+}
+
+.gapaiTech-left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.img-gapaiTech {
+  max-width: 315px;
+  height: 233px;
+}
+
+.img-gapaiTech img {
+  width: 100%;
+}
+
+.keterangan-gapaiTech {
+  max-width: 550px;
+  margin: 0 10px;
+}
+
+.keterangan-gapaiTech h1 {
+  color: #FFF;
+}
+
+.gapaiTech-right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-.containerCard {
-  max-width: 1255px;
-  /* border: 1px solid gray; */
-  margin: 30px auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.img-gapaiTech-right {
+  max-width: 315px;
+  height: 233px;
 }
 
-.postinganTerbaru p {
-  color: #EAEAEA;
-  background-color: #2e2e2e;
-  width: max-content;
-  padding: 10px;
-  border-top-left-radius: 15px;
-  font-size: 0.9em;
-}
-
-.postinganTerbaru {
-  width: 100%;
-  border-bottom: 2px solid #2e2e2e;
-  margin: 20px 13px;
-}
-
-.boxDalamCard {
-  width: 300px;
-  /* height: 250px; */
-  border: 1px solid rgb(211, 211, 211);
-  margin: 10px 5px;
-  background-color: #EAEAEA;
-}
-
-.boxDalamCard:hover {
-  border: 1px solid #969696;
-}
-
-.gambarCard img {
+.img-gapaiTech-right img {
   width: 100%;
 }
 
-.user {
-  display: flex;
-  margin: 10px;
+.keterangan-gapaiTech-right {
+  max-width: 550px;
+  margin: 0 10px;
 }
 
-.profil img {
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
-}
-
-.name {
-  margin: 0 0 0 10px;
-}
-
-.name p {
-  color: #525252;
-  font-weight: bold;
-}
-
-.name p:first-child {
-  font-size: 0.9em;
-}
-
-.name p:last-child {
-  font-size: 0.7em;
-  color: #919191;
-}
-
-.judul {
-  margin: 10px;
-}
-
-.judul h3 a {
-  text-decoration: none;
-  color: #000;
-}
-
-.judul h3 a:hover {
-  color: #5B65F5;
+.keterangan-gapaiTech-right h1 {
+  color: #FFF;
 }
 
 .service {
   width: 100%;
-  margin-top: 150px;
+  /* margin-top: 150px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -489,4 +471,26 @@ footer {
   filter: invert(39%) sepia(0%) saturate(0%) hue-rotate(15deg) brightness(91%) contrast(87%);  
   width: 40px;
   height: 40px;
+}
+
+@media (max-width:938px) {
+  .gapaiTech-left, .gapaiTech-right {
+    flex-direction: column;
+  }
+
+  .keterangan-gapaiTech, .keterangan-gapaiTech-right {
+    padding-top: 50px;
+  }
+
+  .keterangan-gapaiTech h1, .keterangan-gapaiTech-right h1 {
+    text-align: center;
+  }
+
+  .img-gapaiTech-right {
+    order: 1;
+  }
+
+  .keterangan-gapaiTech-right {
+    order: 2;
+  }
 }
