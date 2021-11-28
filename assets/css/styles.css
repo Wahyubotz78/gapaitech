@@ -325,13 +325,14 @@ main {
 .boxDalamCard {
   width: 300px;
   /* height: 250px; */
-  border: 1px solid rgb(211, 211, 211);
+  box-shadow: 1px 1px 10px #7e7e7e;
   margin: 10px 5px;
   background-color: #f5f5f5;
 }
 
 .boxDalamCard:hover {
-  border: 1px solid #969696
+  /* border: 1px solid #969696; */
+  box-shadow: 1px 1px 10px rgb(56, 56, 56);
 }
 
 .gambarCard img {
@@ -379,6 +380,44 @@ main {
 
 .judul h3 a:hover {
   color: #5B65F5;
+}
+
+.next-prev {
+  width: max-content;
+  margin: 50px auto;
+}
+
+.next-prev ul {
+  display: flex;
+  list-style: none;
+}
+
+.next-prev li {
+  margin: 0 2px;
+  border: 1px solid #dcdcdc;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  font-size: 0.8em;
+  justify-content: center;
+  align-items: center;
+}
+
+.next-prev a:nth-child(1) li {
+  cursor: no-drop;
+}
+
+.next-prev a li {
+  cursor: pointer;
+}
+
+.next-prev li {
+  color: #000;
+}
+
+.next-prev a:nth-child(2) li {
+  background-color: #5B65F5;
+  color: #f3f2f2;
 }
 
 .service {

@@ -94,8 +94,6 @@ a {
 
 /*===== NAV =====*/
 @media screen and (max-width: 932px) {
-
-
   .nav {
     position: fixed;
     top: 0;
@@ -206,7 +204,6 @@ a {
   body {
     margin: 0;
   }
-
   .header {
     height: calc(var(--header-height) + 1rem);
   }
@@ -289,8 +286,11 @@ a {
 
 /* code ku */
 
-.csscolor {
-  color: #0400ff;
+.homecolor a {
+  color: #0011ff;
+}
+
+.webdev {
   padding-top: 4px;
 }
 
@@ -375,14 +375,46 @@ main {
 .judul h3 a {
   text-decoration: none;
   color: #000;
+  font-weight: bold;
 }
 
 .judul h3 a:hover {
   color: #5B65F5;
 }
 
-.null {
-  margin-top: 100px;
+.next-prev {
+  width: max-content;
+  margin: 50px auto;
+}
+
+.next-prev ul {
+  display: flex;
+  list-style: none;
+}
+
+.next-prev li {
+  margin: 0 2px;
+  border: 1px solid #dcdcdc;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  font-size: 0.8em;
+  justify-content: center;
+  align-items: center;
+}
+
+.next-prev a:nth-child(4) li {
+  cursor: no-drop;
+}
+
+.next-prev a li {
+  color: #000000;
+  cursor: pointer;
+}
+
+.next-prev a:nth-child(3) li {
+  background-color: #5B65F5;
+  color: #f3f2f2;
 }
 
 .service {
@@ -403,6 +435,7 @@ main {
   text-align: center;
   color: #5B65F5;
   margin: 200px 5px 10px 5px;
+  font-weight: bold;
 }
 
 .service ul {
